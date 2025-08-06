@@ -1,0 +1,80 @@
+.login {
+    width: 414px;
+    height: 875px;
+    background-image: url("../../assets/fonts/Splash.png");
+    background-size: cover;
+    background-position: top;
+    padding: 1rem;
+
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-rows: 1fr auto 15%;
+}
+
+.titulo{
+    grid-row: 1;
+    color: black;
+    height: 20px;
+    width: 129px;
+    font-size: 4.4rem;
+    display: flex;
+    margin-top: -480px;
+}
+
+.h3{
+    grid-row: 2/6;
+    width: 200px;
+    text-align: center;
+    height: 48px;
+    font-size: 1.6rem;
+    display: flex;
+    margin-top: -1000px;
+}
+
+.parrafo{
+margin-left: 20px;
+    width: 400px;
+    height: 60px;
+    font-size: 1.4rem;
+    display: flex;
+    margin-top: -800px;
+}
+
+
+
+.l-boton{
+    height: 5.4rem;
+    width: 222px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 56px;
+    padding: 1.5rem 4rem;
+    font-size: 2rem;
+    margin-top: -600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.or {
+    font-size: 2.4rem;
+    margin-top: -450px;
+}
+
+.r-boton{
+    height: 5.4rem;
+    width: 222px;
+    color:#ffffff;
+    border: 1px solid #6342E8;
+    border-radius: 56px;
+    background-color: #6342E8;
+    padding: 1.5rem 4rem;
+    font-size: 2rem;
+    margin-top: -320px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

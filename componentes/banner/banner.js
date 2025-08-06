@@ -13,5 +13,12 @@ export function banner(){
     aBoton.textContent = "SHOP NOW";
     div.appendChild(aBoton);
 
+    let img = document.createElement("img");
+    img.src = "assets/fonts/Group 3.png"
+    img.className = "puntos";
+    div.appendChild(img);
+
+
+
     return div;
 }
