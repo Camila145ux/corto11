@@ -1,12 +1,12 @@
-import { banner2 } from "../../componentes/bannerLogin/bannerLogin.js";
+import { bannerLogin } from "../../componentes/bannerLogin/bannerLogin.js";
 
 export function login(){
     let login = document.createElement("div");
     login.className = "login";
 
     let h1 = document.createElement("h1");
+    h1.textContent = "Geeta.";
     h1.className = "titulo";
-    h1.textContent = "Geeta";
 
 
     let h3 = document.createElement("h3");
@@ -18,15 +18,19 @@ export function login(){
     p.textContent="Each men and women has their own style, Geeta help you to create your unique style. ";
 
 
-    let lBoton = document.createElement("l");
+    let lBoton = document.createElement("div");
     lBoton.className = "l-boton";
     lBoton.textContent = "LOGIN IN";
-
+    lBoton.addEventListener("click",()=>{
+        login.classList.add("ocultar");
+        document.body.appendChild(bannerLogin());
+    });
+    
     let OR = document.createElement("p");
     OR.className = "or";
     OR.textContent=" - OR -";
 
-    let rBoton = document.createElement("r");
+    let rBoton = document.createElement("div");
     rBoton.className ="r-boton";
     rBoton.textContent = "REGISTER"
 
@@ -36,7 +40,6 @@ export function login(){
     login.appendChild(lBoton);
     login.appendChild(OR);
     login.appendChild(rBoton);
-    login.appendChild(banner2());
 
     return login;
 }

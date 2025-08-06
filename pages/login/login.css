@@ -13,7 +13,6 @@
 }
 
 .titulo{
-    grid-row: 1;
     color: black;
     height: 20px;
     width: 129px;
@@ -23,7 +22,6 @@
 }
 
 .h3{
-    grid-row: 2/6;
     width: 200px;
     text-align: center;
     height: 48px;
@@ -33,7 +31,8 @@
 }
 
 .parrafo{
-margin-left: 20px;
+margin-left: 30px;
+top: 45px;
     width: 400px;
     height: 60px;
     font-size: 1.4rem;
@@ -44,14 +43,15 @@ margin-left: 20px;
 
 
 .l-boton{
-    height: 5.4rem;
-    width: 222px;
+    height: 4rem;
+    width: 125px;
     color: rgb(0, 0, 0);
     border: 1px solid rgb(0, 0, 0);
     border-radius: 56px;
     padding: 1.5rem 4rem;
     font-size: 2rem;
-    margin-top: -600px;
+    margin-top: -700px;
+    cursor: pointer;
 
     display: flex;
     align-items: center;
@@ -60,21 +60,26 @@ margin-left: 20px;
 
 .or {
     font-size: 2.4rem;
-    margin-top: -450px;
+    margin-top: -550px;
 }
 
 .r-boton{
-    height: 5.4rem;
-    width: 222px;
+    height: 4rem;
+    cursor: pointer;
+    width: 125PX;
     color:#ffffff;
     border: 1px solid #6342E8;
     border-radius: 56px;
     background-color: #6342E8;
     padding: 1.5rem 4rem;
     font-size: 2rem;
-    margin-top: -320px;
+    margin-top: -400px;
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ocultar{
+    display: none;
 }
